@@ -1,3 +1,4 @@
+@import "tailwindcss";
 * {
   margin: 0;
   padding: 0;
@@ -35,25 +36,28 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50); /* The image shows an empty parenthesis, you might want to add values like -50%, -50% here for centering */
-   font-size: 5vw;
+  transform: translate(
+    -50%,
+    -50
+  ); /* The image shows an empty parenthesis, you might want to add values like -50%, -50% here for centering */
+  font-size: 5vw;
   font-weight: 400;
   letter-spacing: -0.04em;
-  color: #fff; 
- } 
+  color: #fff;
+}
 
- h1 sup {
-position: relative;
-top: -20px;
-left: 10px;
-font-size: 1.5vw;
-letter-spacing: 0;
+h1 sup {
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-size: 1.5vw;
+  letter-spacing: 0;
 }
 @media (max-width: 900px) {
-.page-content h1 {
-font-size: 10vw;
-}
-h1 sup {
-font-size: 4vw;
-}
+  .page-content h1 {
+    font-size: 10vw;
+  }
+  h1 sup {
+    font-size: 4vw;
+  }
 }
