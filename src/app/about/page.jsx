@@ -1,22 +1,18 @@
-
-
 export default function About() {
   return (
     <div className="page-content hero">
-      <h1>
+      <h1 className="">
         About<sup>(02)</sup>
       </h1>
     </div>
   );
 }
 
-
 // // app/home/page.jsx
 // import Image from 'next/image';
 // import Link from 'next/link';
 // // You might still want to import icons if you're using them directly
 // import { CogIcon, ChartBarIcon, UsersIcon, ShieldCheckIcon, HandThumbUpIcon, LightBulbIcon, BuildingOfficeIcon } from '@heroicons/react/24/outline';
-
 
 // export default function HomePage() {
 //   // Data for sections (can be fetched from CMS in a real app)
@@ -449,5 +445,3 @@ export default function About() {
 //     </>
 //   );
 // }
-
-

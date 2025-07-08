@@ -1,17 +1,17 @@
 {
-  "name": "innovise_project",
+  "name": "my-next-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@heroicons/react": "^2.2.0",
     "gsap": "^3.13.0",
+    "gsap-react": "^1.3.2",
     "next": "15.3.5",
     "particles.js": "^2.0.0",
     "react": "^19.0.0",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/postcss": "^4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
